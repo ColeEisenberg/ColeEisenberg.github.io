@@ -2,23 +2,23 @@ url: https://ColeEisenberg.github.io
 baseurl: #
 
 # Site settings
-title: COLES WEBSITE IS UP!!!
+title: Cole Eisenberg's Website
 email: cole.eisenberg@icloud.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "A exemplerary mechanical engineering grad looking to earn his keep. They don't come more hard-working and motivated than this one"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: This is Me!
   pic: 1
-  position: Lead Designer
+  position: Mechanical Engineer
   social:
-    - title: twitter
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/coleeisenberg/
     - title: facebook
       url: #
-    - title: stack-overflow
-      url: #
+    - title: instagram
+      url: https://www.instagram.com/probably_not_cole/
 
 - name: Larry Parker
   pic: 2
