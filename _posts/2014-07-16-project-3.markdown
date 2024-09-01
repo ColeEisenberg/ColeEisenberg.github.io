@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Vegetable Slicer Mechanism
+subtitle: CAD Design
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: ChopperStill.png
+thumbnail: ChopperStill.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 100 CAD movement relationships later, I present to you the vegetable chopper 9000. A novel design using a simple movement mechanism, this project exibits a custom designed cam lobe which drives the chopping motion. The hand crank drives the conveyor belt and a gear train, which would theoretically chop whatever you choose to feed ths beast into even __cm pieces.
 
 ---

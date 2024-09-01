@@ -1,15 +1,16 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Covid-19 Mask Launching Robot
+subtitle: The name says it all
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: CovidRobot.png
+img: CovidRobot.png
+thumbnail: FlyingMask.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The first robot build of my university career, made me fall in love with electronics. The robot had differential drive through the two DC motors, controlled by an arduino interfacing to a cell phone app and sending signals to an h-bridge. Masks are loaded, rubber bands cocked, and the two finite rotation servos let them rip on command. This porject intorduced me to programing microcontrollers and taught me to always check your grounds. 
 
 ---

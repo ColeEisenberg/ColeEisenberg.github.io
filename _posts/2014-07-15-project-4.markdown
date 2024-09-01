@@ -1,15 +1,15 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: DIY Wrist Brace
+subtitle: CAD Modeling with Organic Shapes
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: GraduationWrist.png
+thumbnail: ThumbBrace v4.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: After an acute wrist injury and my reluctance to go see a doctor, I decided to fix the problem on my own. Using the LIDAR on my cellphone as a scanner, I uploaded the shape into my CAD software and quickly whipped this up with my 3D printer. The second rendition was comfortable enough to wear for days on end, and printed in less than an hour.
 
 ---
