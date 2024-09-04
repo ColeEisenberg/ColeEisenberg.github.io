@@ -10,12 +10,15 @@ alt: image-alt
 project-date: September 2023 - May 2024
 client: Stony Brook University
 category: Mechanical/Electrical 
-description: Member of the senior design team, tasked with the redesign of the electric propulsion system on our solar boat. Operated within a budget and schedule, carried out the design and fabrication of mechanical, electrical, and electronic systems.
+description: As a member of the senior design team, I was tasked with redesigning the electric propulsion system of our solar boat. I collaborated closely with the steering team to ensure our designs were compatible. Working within a tight budget and schedule, we designed and fabricated all the mechanical, electrical, and electronic systems.
 client-link: https://www.stonybrook.edu/
 img1: CouplerPhases.png
-paragraph1: D-shaft input to custom splined output with mechanical fuse.
+paragraph1: D-shaft input connected to a custom splined output with a keyway, functioning as a mechanical fuse.
 alt1: image-alt1
 img2: FusionOB.png
-paragraph2: This is the final realized product, machined 100% in-house using a lathe, milling machine, bandsaw and wire EDM.
+paragraph2: The final product, machined 100% in-house using a lathe, milling machine, bandsaw, and wire EDM.
 alt2: image-alt2
+pdf-link: img/docs/SolarBoatReport.pdf
+pdf-name: SolarBoatReport.pdf
+paragraph4: The 164 page report is linked above.
 ---

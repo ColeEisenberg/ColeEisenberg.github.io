@@ -4,19 +4,24 @@ subtitle: Mechatronics
 layout: default
 modal-id: 6
 date: 5-7-2024
-img: TrimTabsShallow.png
+img: TrimTabsAnnotated.png
 thumbnail: TrimTabsShallow.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: This mechatronics project automates the positioning of trim tabs based on the position of an accelorometer. A decoder take 4 inputs from the ESP32 and uses it to drive 8 LEDs and display what the accelorometer is reading. The ESP32 is also broadcasting the vitals over WiFi, allowoing for the user to read system data on a smart phone app.
+project-date: December 2023
+client: Stony Brook University
+category: Mechatronics
+description: This mechatronics project uses an ESP32 microcontroller to control the position of trim tabs on a model boat, helping to stabilize it in rough water. A decoder takes 3 inputs from the MCU and drives 8 LEDs to display the position of the servos. The ESP32 also broadcasts system vitals over a WiFi channel, allowing the user to monitor data via a proprietary smartphone app. Depending on the operator-selected mode, either button presses or accelerometer readings are used to control the servos.
 client-link: https://www.stonybrook.edu/
 img1: TrimTabSchematic.png
-paragraph1: Here lies a Fritzing schematic of the system. In Practice, an extra Arduino Uno was added to the system to supply power to the servos.
+paragraph1: This is a Fritzing schematic of the system. In practice, an additional Arduino Uno was added to supply sufficient current to the servos.
 alt1: image-alt1
-img2: 
-paragraph2: 
+img2: TrimTabFlowChart.png
+paragraph2: This is the software flowchart, showing the two modes, manual and automatic tab positioning. You can see how the program makes decisions.
 alt2: image-alt2
-
+gif1: TrimTabsGif.gif
+paragraph3: Notice how when the acceloremoter is in control, the LEDs, smartphone app, and trim tabs act accordingly.
+gif2: 
+pdf-link: img/docs/TrimTabsDesignReport.pdf
+pdf-name: TrimTabsDesignReport.pdf
+paragraph4: The final report is linked above.
 ---

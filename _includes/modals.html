@@ -32,9 +32,17 @@
                         {% if post.gif1 %}
                             <img src="img/portfolio/{{ post.gif1 }}" class="img-responsive img-centered" alt="GIF1">
                         {% endif %}
-                        {% if post.gif2 %}
-                            <img src="img/portfolio/{{ post.gif2 }}" class="img-responsive img-centered" alt="GIF2">
-                        {% endif %}                       
+                        {% if post.paragraph3 %}
+                            <p>{{ post.paragraph3 }}</p>
+                        {% endif %}
+                                 
+                        <!-- Display PDF Link -->
+                        {% if post.pdf-link %}
+                            <p><a href="{{ post.pdf-link }}" target="_blank">{{ post.pdf-name }}</a></p>
+                        {% endif %}
+                        {% if post.paragraph4 %}
+                            <p>{{ post.paragraph4 }}</p>
+                        {% endif %}
                         <!-- Standard Project Details -->
                         <ul class="list-inline item-details">
                             <li>Client:

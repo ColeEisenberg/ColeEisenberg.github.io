@@ -10,10 +10,10 @@ alt: image-alt
 project-date: November 2020
 client: Stony Brook University
 category: Web Development
-description: The first robot build of my university career, made me fall in love with electronics. The robot had differential drive through the two DC motors, controlled by an arduino interfacing to a cell phone app and sending signals to an h-bridge. Masks are loaded, rubber bands cocked, and the two finite rotation servos let them rip on command. This project introduced me to programming microcontrollers and taught me to always check your grounds.
+description: The first robot build of my university career made me fall in love with electronics. The robot featured a differential drive using two DC motors, controlled by an Arduino interfacing with a cell phone app and sending signals to an H-bridge. Masks were loaded, rubber bands cocked, and two finite rotation servos launched them on command. This project introduced me to programming microcontrollers and taught me the importance of always checking your grounds.
 client-link: https://www.stonybrook.edu/
 img1: CovidRobot.png
-paragraph1: 
+paragraph1: This robot earned our team first place in the COVID-19 Robot Design Challenge.
 alt1: image-alt1
 img2: 
 paragraph2: 

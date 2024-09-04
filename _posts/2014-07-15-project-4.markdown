@@ -7,13 +7,13 @@ date: 5-7-2024
 img: ThumbBrace v4.png
 thumbnail: ThumbBraceSq.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: After an acute wrist injury and my reluctance to go see a doctor, I decided to fix the problem on my own. Using the LIDAR on my cellphone as a scanner, I uploaded the shape into my CAD software and quickly whipped this up with my 3D printer. After two renditions, the device  was comfortable enough to wear for days on end, and printed in less than an hour.
-client-link: https://www.stonybrook.edu/
+project-date: April 2024
+client: Myself
+category: CAD Design
+description: After an acute wrist injury—and my reluctance to see a doctor—I decided to solve the problem on my own. Using the LiDAR on my cellphone as a scanner, I scanned my wrist and uploaded the shape into my CAD software. I quickly designed this brace, which I then 3D-printed. After two iterations, the device was comfortable enough to wear for days on end and took less than an hour to print.
+client-link: https://coleeisenberg.github.io/
 img1: GraduationWrist.png
-paragraph1: The final product was sleek enough to wear for my graduation, avoinding me some painful handshakes.
+paragraph1: The final product was sleek enough to wear to my graduation, sparing me some painful handshakes.
 alt1: image-alt1
 img2: 
 paragraph2: 

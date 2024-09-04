@@ -4,7 +4,7 @@ baseurl: #
 # Site settings
 title: Cole Eisenberg's Website
 email: cole.eisenberg@icloud.com
-description: "A exemplerary mechanical engineering grad looking to earn his keep. They don't come more hard-working and motivated than this one"
+description: "A exemplerary mechanical engineering grad looking to earn his keep. They don't come more hard-working and motivated than this one!"
 
 
 # Team names, titles and social links
@@ -20,21 +20,18 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/ColeEisenberg/ColeEisenberg.github.io
+  - title: linkedin
+    url: https://www.linkedin.com/in/coleeisenberg/
+  - title: instagram
+    url: https://www.instagram.com/probably_not_cole/
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 84 Colgate Rd
+  - line: East Jewett, NY 12424
 
 # Build settings
 markdown: kramdown

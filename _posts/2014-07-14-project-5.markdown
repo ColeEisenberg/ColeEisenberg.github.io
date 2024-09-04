@@ -10,13 +10,15 @@ alt: image-alt
 project-date: May 2024
 client: Stony Brook University
 category: Project Managment
-description: Tasked with the design of a simple garden shed and the porject management. Developing a project schedule, manufacturing flow and optimizing all associated costs.
+description: The goal was to design a simple garden shed and create a management plan for the entire project. I developed the project schedule, staffing requirements, manufacturing processes, and optimized all associated costs. I ended up enjoying this assignment more than anticipated; it was satisfying to create an efficient, all-encompassing plan for my theoretical company.
 client-link: https://www.stonybrook.edu/
-img1: ShedMaterialCosts.png
-paragraph1: The costs of all material necessary to complete one shed. Documented in a google sheet.
+img1: ShedWBS.png
+paragraph1: I created a work breakdown structure, breaking down all aspects of the job into simple work packets—tasks that can be handled by a single individual.
 alt1: image-alt1
-img2: 
-paragraph2: 
+img2: ShedCost.png
+paragraph2: The costs of all materials necessary to complete one shed are documented in a Google Sheet.
 alt2: image-alt2
-
+pdf-link: img/docs/ShedReport.pdf
+pdf-name: ShedReport.pdf
+paragraph4: My individual report for this project is linked above.
 ---

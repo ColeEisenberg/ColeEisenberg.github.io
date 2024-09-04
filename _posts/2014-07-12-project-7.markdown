@@ -7,16 +7,16 @@ date: 5-7-2024
 img: Corvette.png
 thumbnail: Corvette.png
 alt: image-alt
-project-date: April 2014
+project-date: January 2021 - Current
 client: My Soul
 category: Automotive
-description: I love cars! Say hello to my '01 Corvette. Bought back in January 2021, I've stay busy maintaining and upgrading this beauty.
-client-link: 
+description: I love cars! Say hello to my '01 Corvette. I bought it back in January 2021, and I've kept busy maintaining and upgrading this beauty.
+client-link: https://coleeisenberg.github.io/
 img1: SubMemberDown.png
-paragraph1: While commuting to school, I noticed my clutch was having issues with staying disengaged when actuated. Following normal troubleshoooting procedure, I started with the easiest solutions first. No luck with a fluid bleed. Changing the master cylinder didnt solve the problem. From here, the only possile culprit was the slave cylinfer, which in order to get to, I needed to remove the rear subframe/transaxle assembly and slide the torque-tube away from the backside of the motor. From here, I was able to swap out the part and change the clutch and flywheel, since I really didn't feel like doing this again anytime soon. After spending my entire spring break on my back in the driveway, my transmission never felt so smooth. 
+paragraph1: While commuting to school, I noticed my clutch was having trouble staying disengaged when actuated (the system wasn't holding pressure). Following normal troubleshooting procedures, I started with the easiest solutions. No luck with a fluid bleed. Changing the master cylinder didn’t solve the problem either. The only possible culprit left was the slave cylinder, which required removing the rear subframe/transaxle assembly and sliding the torque tube away from the back of the motor. Once I had it apart, I swapped out the part and decided to replace the clutch and flywheel as well—since I didn’t want to do this job again anytime soon! After spending my entire spring break on my back in the driveway, my transmission never felt so smooth.
 alt1: image-alt1
 img2: Headers.png
-paragraph2: From taking off the intake mainfold to change the oil pressure sensor to jacking up the motor for enough space to slide in long tube headers, working on this car keeps me thinking critically.
+paragraph2: Working on projects like removing the intake manifold to replace the oil pressure sensor, jacking up the motor to install long tube headers, and countless other tasks has continuously honed my mechanical aptitude. Each challenge pushes me to think critically and sharpen my skills with every turn of the wrench.
 alt2: image-alt2
 
 ---

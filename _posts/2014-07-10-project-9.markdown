@@ -1,6 +1,6 @@
 ---
-title: Current Project
-subtitle: Electonics/Programing/Physical Interfacing
+title: Current (Top Secret) Project
+subtitle: Electonics/Programing
 layout: default
 modal-id: 9
 date: 5-7-2024
@@ -10,12 +10,13 @@ alt: image-alt
 project-date: June 2024 - Current
 client: Personal
 category: Engineering
-description: Spreading across many fields of engineering, this project has been keeping me busy. Packaging contraints, energy consumption optimization and general problem solving have kept my mind sharp since graduation. The project is based around an ESP32 and runs on micropython, which then talks to an iPhone appliation over bluetooth.
-client-link: https://www.stonybrook.edu/
-img1: 
+description: Spanning multiple fields of engineering, this project has kept me busy learning and creating. I’ve been working through packaging constraints, reducing energy consumption for battery power, and general problem-solving, which has kept my mind sharp since graduation. The project is centered around an ESP32 running MicroPython, which communicates with an iPhone application over Bluetooth. The picture above shows the latest iteration of the PCB, designed to further minimize the footprint of my novel design.
+client-link: https://coleeisenberg.github.io/
+img1: FrontShot.png
 paragraph1: 
 alt1: image-alt1
-img2: 
-paragraph2: 
+img2: BackShot.png
+paragraph2: This was one of the more recent working prototypes. I’ve learned to design and solder custom PCBs for this project, with successful results. Keep in mind this is only a prototype—there are more versions of this project to come.
+paragraph3:
 alt2: image-alt2
 ---

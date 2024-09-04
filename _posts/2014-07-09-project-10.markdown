@@ -1,0 +1,27 @@
+---
+title: This (Cole Eisenberg's) Website
+subtitle: HTML, CSS and Markdown
+layout: default
+modal-id: 10
+date: 5-7-2024
+img: WebsiteHtml.png
+thumbnail: WebsiteHtmlSq.png
+alt: image-alt
+project-date: September 2024
+client: Myself
+category: Web Development
+description: I know there are easier ways to make a website, but through this endeavor, I’ve learned the basics of how website backends work. I built this static webpage by forking a basic Jekyll theme from a GitHub repository and customizing it to fit my needs. After many hours of configuring and setting up the necessary files, I hosted the site using GitHub Pages. This process involved understanding and modifying HTML, CSS, and Markdown to personalize the content and design. It’s been incredibly satisfying to see it come to life, and I’m enjoying the mix of creativity and programming.
+client-link: https://coleeisenberg.github.io/
+img1: 
+paragraph1: 
+alt1: image-alt1
+img2: 
+paragraph2: 
+alt2: image-alt2
+gif1: 
+paragraph3: 
+gif2: 
+pdf-link: 
+pdf-name: 
+paragraph4: 
+---

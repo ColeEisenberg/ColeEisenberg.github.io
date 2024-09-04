@@ -10,7 +10,7 @@ alt: image-alt
 project-date: May 2022
 client: Stony Brook University
 category: 3D Computer Aided Design
-description: 100 CAD movement relationships later, I present to you the vegetable chopper 9000. A novel design using a simple movement mechanism, this project exibits a custom designed cam lobe which drives the chopping motion. The hand crank drives the conveyor belt and a gear train, which would theoretically chop whatever you choose to feed ths beast into even __cm pieces.
+description: After 33 CAD joints and relationships, I present to you the Vegetable-Chopper-9000. This novel design uses a simple movement mechanism and features a custom-designed cam lobe that drives the chopping motion. The cam was carefully engineered to ensure smooth operation, avoiding excessive pressure angles and accelerations. The hand crank powers both the conveyor belt and a gear train, which would theoretically slice whatever you feed into even pieces, the size is determined by the gear ratios.
 client-link: https://www.stonybrook.edu/
 img1: Chopper 3q.png
 paragraph1: 
@@ -19,6 +19,8 @@ img2: Chopper -3q.png
 paragraph2: 
 alt2: image-alt2
 gif1: Chopper.gif
-gif2: 
-
+paragraph3: With the gears meshing beautifully, this is truly a mechanical work of art.
+pdf-link: img/docs/VegetableChopperReport.pdf
+pdf-name: VegetableChopperReport.pdf
+paragraph4: The report linked above includes my MATLAB calculations used to properly design the cam profile. (Please excuse the handwriting from some of my teammates—we're just mechanical engineers, after all!)
 ---

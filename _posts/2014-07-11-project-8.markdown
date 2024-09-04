@@ -8,10 +8,10 @@ img: PyScreenshot.png
 thumbnail: PyScreenshot.png
 alt: image-alt
 project-date: June 2024
-client: Personal
+client: Myself
 category: Programing
-description: I frequently play typing games, but as you get faster, so do your oponents. To engineer a soultion to this dilema, using computer vision and virtual keystorkes, I can surpass 200 wpm with this program. Not for everyday use, only to annoy my typist friends. 
-client-link: https://www.stonybrook.edu/
+description: I frequently play typing games, but as you get faster, so do your opponents. To engineer a solution to this dilemma, I used computer vision and virtual keystrokes to create a program that allows me to surpass 200 WPM. Not for everyday use—just to annoy my typist friends!
+client-link: https://coleeisenberg.github.io/
 img1: 
 paragraph1: 
 alt1: image-alt1
