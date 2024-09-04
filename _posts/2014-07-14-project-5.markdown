@@ -1,15 +1,22 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Shed Project Management
+subtitle: Project Management
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 5-7-2024
+img: ShedDesign.png
+thumbnail: ShedSq.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: May 2024
+client: Stony Brook University
+category: Project Managment
+description: Tasked with the design of a simple garden shed and the porject management. Developing a project schedule, manufacturing flow and optimizing all associated costs.
+client-link: https://www.stonybrook.edu/
+img1: ShedMaterialCosts.png
+paragraph1: The costs of all material necessary to complete one shed. Documented in a google sheet.
+alt1: image-alt1
+img2: 
+paragraph2: 
+alt2: image-alt2
 
 ---

@@ -1,0 +1,21 @@
+---
+title: Typing Game Bot
+subtitle: Python Programming
+layout: default
+modal-id: 8
+date: 5-7-2024
+img: PyScreenshot.png
+thumbnail: PyScreenshot.png
+alt: image-alt
+project-date: June 2024
+client: Personal
+category: Programing
+description: I frequently play typing games, but as you get faster, so do your oponents. To engineer a soultion to this dilema, using computer vision and virtual keystorkes, I can surpass 200 wpm with this program. Not for everyday use, only to annoy my typist friends. 
+client-link: https://www.stonybrook.edu/
+img1: 
+paragraph1: 
+alt1: image-alt1
+img2: 
+paragraph2: 
+alt2: image-alt2
+---

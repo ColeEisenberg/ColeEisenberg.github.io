@@ -1,15 +1,22 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Automated Trim Tabs
+subtitle: Mechatronics
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: 5-7-2024
+img: TrimTabsShallow.png
+thumbnail: TrimTabsShallow.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: This mechatronics project automates the positioning of trim tabs based on the position of an accelorometer. A decoder take 4 inputs from the ESP32 and uses it to drive 8 LEDs and display what the accelorometer is reading. The ESP32 is also broadcasting the vitals over WiFi, allowoing for the user to read system data on a smart phone app.
+client-link: https://www.stonybrook.edu/
+img1: TrimTabSchematic.png
+paragraph1: Here lies a Fritzing schematic of the system. In Practice, an extra Arduino Uno was added to the system to supply power to the servos.
+alt1: image-alt1
+img2: 
+paragraph2: 
+alt2: image-alt2
 
 ---
