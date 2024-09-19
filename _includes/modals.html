@@ -29,6 +29,9 @@
                         {% if post.paragraph2 %}
                             <p>{{ post.paragraph2 }}</p>
                         {% endif %}
+                        {% if post.img3 %}
+                        <img src="img/portfolio/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt3 }}">
+                        {% endif %}
                         {% if post.gif1 %}
                             <img src="img/portfolio/{{ post.gif1 }}" class="img-responsive img-centered" alt="GIF1">
                         {% endif %}
@@ -43,6 +46,12 @@
                         {% if post.paragraph4 %}
                             <p>{{ post.paragraph4 }}</p>
                         {% endif %}
+
+                        {% if post.code %}
+                        <h3>Code Example</h3>
+                        <pre><code class="language-python">{{ post.code }}</code></pre>
+                        {% endif %}
+
                         <!-- Standard Project Details -->
                         <ul class="list-inline item-details">
                             <li>Client:

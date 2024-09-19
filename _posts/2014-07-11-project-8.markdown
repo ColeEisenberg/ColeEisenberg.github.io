@@ -4,18 +4,241 @@ subtitle: Python Programming
 layout: default
 modal-id: 8
 date: 5-7-2024
-img: PyScreenshot.png
-thumbnail: PyScreenshot.png
+img: ImgOne.png
+thumbnail: SideBySideSq.png
 alt: image-alt
 project-date: June 2024
 client: Myself
 category: Programing
-description: I frequently play typing games, but as you get faster, so do your opponents. To engineer a solution to this dilemma, I used computer vision and virtual keystrokes to create a program that allows me to surpass 200 WPM. Not for everyday use—just to annoy my typist friends!
+description: I like typing games, but as you get faster, so do your opponents. I also like to win, so I engineered a solution to guarentee I win 100% of the time. I implemented computer vision to find the text and convert it to a string, then used automated keystrokes to enter the prompt.
+
 client-link: https://coleeisenberg.github.io/
-img1: 
-paragraph1: 
+
+img1: ImgWBounding.png
+
 alt1: image-alt1
-img2: 
-paragraph2: 
+
+paragraph1: The program takes a live screenshot, processes the image and finds the largest contour. Above, you can see the original screenshot with the found contour overlayed.
+
+img2: ErosionWText.png
 alt2: image-alt2
+
+paragraph2: One of the challenges in this project is how the cursor has a different color from the rest of the text, and cannot be detected in the initial image to string function. To circumnavigate this, I wrote a section of code to search for the two possiblie cursor colors and their respective contours. After more image processing, the letter inside the cursor is read and added to the text.
+
+img3: NitroBan.png
+
+alt3: image-alt3
+
+paragraph3: The fasted recorded time with this program has been 268 WPM, considerably faster than the current typing world record. This might have something to do with why my NitroType account was permanently banned...
+
+code: |
+    # A program to help you win the web browser game NitroType
+    import pyautogui
+    import cv2 as cv
+    import pytesseract
+    import numpy as np
+    import time
+    from pynput.keyboard import Controller as KeyboardController
+    from pynput.mouse import Button, Controller as MouseController
+    import tkinter as tk
+
+
+    # Create the controllers
+    keyboard = KeyboardController()
+    mouse = MouseController()
+    # Counter to specify whether it's the first input of the game, must be reset before each round
+    count = 0
+
+    def take_img():  # Take and save screenshot
+    global img
+    image = pyautogui.screenshot()
+    image.save(r"/Users/craignbeckyeisenberg/PycharmProjects/NitroTypeBot/TheScreen.png")
+    img = cv.imread("TheScreen.png")
+
+    # Image display in pop-up, for tuning and troubleshooting
+    # cv.imshow('img', img)
+    # cv.waitKey()
+
+
+    def process_img(): # Find text outside the cursor
+    global text
+    global x, y, w, h
+    # Convert image form color to grey
+    # Grey to binary, threshold is to be adjusted accordingly
+    # Find contours, using corner points
+    # Largest contour saved
+    # Get largest contour coordinates
+    # Rectangle of largest contour, can be used to display bounding box
+    img_grey = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+    _, thresh = cv.threshold(img_grey, 135, 255, cv.THRESH_BINARY)
+    contours, _ = cv.findContours(thresh, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
+    largest_contour = max(contours, key=cv.contourArea)
+    x, y, w, h = cv.boundingRect(largest_contour)
+    rectangle = cv.rectangle(thresh, (x, y), (x+w, y+h), (0, 0, 255), 2)
+
+    # cv.imshow('thresh', thresh)
+    # cv.waitKey()
+
+    # Crop image to largest contour
+    cropped = rectangle[y:y + h, x:x + w]
+
+    # Establish image to string protocol
+    # 2x2 matrix for the kernel, larger kernel = more dilation
+    # Dilate the binary image (since white is dilated, the black text gets thinner) improving readability
+    # oem 3 = OCR engine module 3
+    # psm 6 = page segmentation mode 6: block of uniform text
+    kernel = np.ones((2, 2), np.uint8)
+    dilation = cv.dilate(cropped, kernel, iterations=1)
+    config = '--oem 3 --psm 6'
+    text = pytesseract.image_to_string(dilation, config = config, lang='eng') # Image to string
+    text = text.replace('\n', ' ').strip() # Replace new lines for spaces
+
+    # cv.imshow('dilation', dilation)
+    # cv.waitKey()
+
+
+    def first_let(): # Find text within the cursor
+    global letter
+    global write
+    global count
+    # Original image, cropped to the bounding box
+    color_cropped = img[y:y + h, x:x + w]
+
+    # cv.imshow('color_cropped', color_cropped)
+    # cv.waitKey()
+
+    # For HSV in OpenCV, hue range is [0,179], saturation range is [0,255], and value range is [0,255].
+    # BRG color to HSV, to facilitate selective color masking
+    hsv = cv.cvtColor(color_cropped, cv.COLOR_BGR2HSV)
+    # Color ranges for blue (normal) cursor and red (error) cursor
+    lower_blue = np.array([100, 170, 230])
+    upper_blue = np.array([110, 190, 250])
+    lower_red = np.array([0, 173, 198])
+    upper_red = np.array([0, 174, 199])
+    # Create mask for both possibilities
+    mask_b = cv.inRange(hsv, lower_blue, upper_blue)
+    mask_r = cv.inRange(hsv, lower_red, upper_red)
+    # Find contours of both mask possibilities
+    contours_b, _ = cv.findContours(mask_b, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
+    contours_r, _ = cv.findContours(mask_r, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
+    # if blue contour is found:
+    if contours_b:
+        largest_b = max(contours_b, key=cv.contourArea)
+        largest_let_contour = largest_b
+        mask = mask_b
+    # if red contour is found:
+    else:
+        largest_r = max(contours_r, key=cv.contourArea)
+        largest_let_contour = largest_r
+        mask = mask_r
+
+    # cv.imshow('mask', mask)
+    # cv.waitKey()
+
+    # Crop image to contour
+    x1, y1, w1, h1 = cv.boundingRect(largest_let_contour)
+    cropped_let = mask[y1:y1 + h1, x1:x1 + w1]
+    # Invert image, leaving black background with white text
+    inverted_image = cv.bitwise_not(cropped_let)
+    # Establish kernel
+    kernel = np.ones((5, 5), np.uint8)
+    # Erode image (since white is eroded, the white text gets thinner)
+    erosion = cv.erode(inverted_image, kernel, iterations=1)
+
+    cv.imshow('erosion', erosion)
+    cv.waitKey()
+
+    # psm 10 = single character recognition
+    custom_config = r'--oem 3 --psm 10'
+    letter = pytesseract.image_to_string(erosion, config=custom_config)
+    letter = letter.replace('\n', '').strip()
+    # If it's the first input of the game, allow capital letter
+    if count == 0:
+        write = letter + text + ' '
+    # After the first input, resort to lowercase for mid-sentence resume
+    else:
+        write = letter.lower() + text + ' '
+    count += 1
+
+
+    def type_string_with_delay(string): # Virtual mouse and keyboard inputs
+    # Set mouse cursor to middle of the screen and click
+    mouse.position = (400, 600)
+    time.sleep(.05)
+    mouse.press(Button.left)
+    time.sleep(.05)
+    mouse.release(Button.left)
+    time.sleep(.05)
+    # Type each character, sleeping for the assigned amount of time
+    for character in string:
+        keyboard.type(character)
+        time.sleep(.02)
+
+
+    def type_fast(): # Order of operations on button press
+    take_img()
+    process_img()
+    first_let()
+    type_string_with_delay(write)
+
+
+    def reset_count(): # Reset the count, do this each game.
+    global count
+    count = 0
+
+
+    # Create user interface (UI)
+    root = tk.Tk()
+
+    # Create button to type the found text
+    button = tk.Button(root,
+                    text="Type Fast",
+                    command=type_fast,
+                    activebackground="blue",
+                    activeforeground="white",
+                    anchor="center",
+                    bd=3,
+                    bg="lightgray",
+                    cursor="hand2",
+                    disabledforeground="gray",
+                    fg="black",
+                    font=("Arial", 12),
+                    height=2,
+                    highlightbackground="black",
+                    highlightcolor="green",
+                    highlightthickness=2,
+                    justify="center",
+                    overrelief="raised",
+                    padx=10,
+                    pady=5,
+                    width=15,
+                    wraplength=100)
+    button.pack(padx=20, pady=20)
+
+    # Create button to reset the count
+    reset_button = tk.Button(root,
+                            text=f"Reset Count: Count = {count}",
+                            command=reset_count,  # Function to reset the count
+                            activebackground="red",
+                            activeforeground="white",
+                            anchor="center",
+                            bd=3,
+                            bg="lightgray",
+                            cursor="hand2",
+                            disabledforeground="gray",
+                            fg="black",
+                            font=("Arial", 12),
+                            height=2,
+                            highlightbackground="black",
+                            highlightcolor="green",
+                            highlightthickness=2,
+                            justify="center",
+                            overrelief="raised",
+                            padx=10,
+                            pady=5,
+                            width=15,
+                            wraplength=100)
+    reset_button.pack(padx=20, pady=20)
+    # Run UI
+    root.mainloop()
 ---
