@@ -38,6 +38,9 @@
                         {% if post.paragraph3 %}
                             <p>{{ post.paragraph3 }}</p>
                         {% endif %}
+                        {% if post.img4 %}
+                        <img src="img/portfolio/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt4 }}">
+                        {% endif %}
                                  
                         <!-- Display PDF Link -->
                         {% if post.pdf-link %}

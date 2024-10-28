@@ -1,5 +1,5 @@
 ---
-title: Project Car
+title: Project Car(s)
 subtitle: Automotive Mechanics
 layout: default
 modal-id: 7
@@ -18,5 +18,11 @@ alt1: image-alt1
 img2: Headers.png
 paragraph2: Working on projects like removing the intake manifold to replace the oil pressure sensor, jacking up the motor to install long tube headers, and countless other tasks has continuously honed my mechanical aptitude. Each challenge pushes me to think critically and sharpen my skills with every turn of the wrench.
 alt2: image-alt2
+img3: CamryInTrees.png
+alt3: image-alt3
+paragraph3: While the Corvette is an awesome and reliable car, I wanted something that gets slightly better MPG. This led me to purchase a '99 Toyota Camry. Thanks to Toyota's Kaizen manufacturing process and some preventative maintenance, I trusted this car on a road trip from New York to the West Coast and back. No hiccups other than some flat tires in Montana.
+img4: CamryHeadGasket.png
+alt4: image-alt4
+paragraph4: While I do love old Toyotas, after 200,000 miles, some components are bound to go sour. Back in September 2024, I started to notice the symptoms of head gasket failure. Trusting my mechanical abilities, I decided to tackle the project on my own. The project lasted somewhere between a couple and a few nights, and I took enough re-assembly notes to write a thesis. I emerged with a once again functional Camry and an enhanced understanding of the principles that *drive* internal combustion engines.
 
 ---
