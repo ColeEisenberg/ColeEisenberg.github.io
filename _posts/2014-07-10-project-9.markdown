@@ -15,8 +15,8 @@ client-link: https://coleeisenberg.github.io/
 img1: FrontShot.png
 paragraph1: 
 alt1: image-alt1
-img2: BackShot.png
-paragraph2: This was one of the earliest working prototypes. I’ve learned to design and solder custom PCBs for this project, with successful results. Keep in mind this is only a prototype—there are more refined versions of this project in the pipeline.
+img2: ESPSenseV2.png
+paragraph2: This are some of the earliest working prototypes. I’ve learned to design and solder custom PCBs for this project, with successful results. Keep in mind these are only prototypes—there are more refined versions of this project in the pipeline.
 paragraph3:
 alt2: image-alt2
 ---

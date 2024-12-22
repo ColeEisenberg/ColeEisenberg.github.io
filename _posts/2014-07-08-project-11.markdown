@@ -1,0 +1,29 @@
+---
+title: 3D Printing for Construction
+subtitle: CAD Modeling and 3D Printing
+layout: default
+modal-id: 11
+date: 5-7-2024
+img: LightMountCAD.png
+thumbnail: LightMountCADSq.png
+alt: image-alt
+project-date: December 2024
+client: Genuine Builders
+category: Engineering
+description: First, a quick testimet to the importance of networking. An unassuming conversation in a waiting room led to me being hired as a construction worker, which ultimately opened the door to my first engineering design project. <br>  
+ One day at work, the foreman and I were tasked with mounting three industrial cage lights to the underside of an off-pitch piece of corrugated metal. Traditional construction methods proved insufficient for this unique challenge, but I saw it as an opportunity to apply my skills in 3D printing and CAD.
+client-link: https://coleeisenberg.github.io/
+img1: CorrugatedProfile.png
+paragraph1: Simple trigonometry and the standard dimensions of corrugated metal provided a solid starting point for designing the mounting surface. A few iterations with test pieces helped refine the profile and angle to perfection. <br>
+ Since the piece was intended to remain outdoors indefinitely, I chose to print it using acrylonitrile styrene acrylate (ASA) for its weather-resistant properties. An electrical box was to be nestled inside, meaning the two dissimilar materials would expand and contract at different rates. By using the thermal expansion coefficients I determined the required tolerances, and was able to ensure the design would hold up over environmental stresses.
+alt1: image-alt1
+img2: InstalledLightFixture.png
+paragraph2: The result - three functional pieces that both the clients and I were proud to display.
+alt2: image-alt2
+gif1: 
+paragraph3: 
+gif2: 
+pdf-link: 
+pdf-name: 
+paragraph4: 
+---
