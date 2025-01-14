@@ -10,7 +10,7 @@ alt: image-alt
 project-date: June 2024 - Current
 client: Personal
 category: Engineering
-description: Spanning multiple fields of engineering, this project has kept me busy learning and creating. I’ve been working through packaging constraints, reducing energy consumption for battery power, and general problem-solving, which has kept my mind sharp since graduation. The project is centered around an ESP32 running MicroPython, which communicates with an iPhone application over Bluetooth. The picture above shows the latest iteration of the PCB, designed to further minimize the footprint of my novel design.
+description: Spanning multiple fields of engineering, this project has kept me busy learning and creating. I’ve been working through packaging constraints, reducing energy consumption for battery power, and general problem-solving, which has kept my mind sharp since graduation. The project is centered around an ESP32 running MicroPython (now pivoting to C++), which communicates with an iPhone application over Bluetooth. The picture above shows the latest iteration of the PCB, designed to further minimize the footprint of my novel design.
 client-link: https://coleeisenberg.github.io/
 img1: FrontShot.png
 paragraph1: 
