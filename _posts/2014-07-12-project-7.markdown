@@ -4,25 +4,26 @@ subtitle: Automotive Mechanics
 layout: default
 modal-id: 7
 date: 5-7-2024
-img: Corvette.png
-thumbnail: Corvette.png
+img: SallyPorsheFtF.jpg
+thumbnail: SallyPorscheFtB.jpg
 alt: image-alt
 project-date: January 2021 - Current
 client: My Soul
 category: Automotive
-description: I love cars! Say hello to my '01 Corvette. I bought it back in January 2021, and I've kept busy maintaining and upgrading this beauty.
+description: This '99 Porsche 911 996 C2 (with a 6-speed manual) is an engineering masterpiece. She's not the fastest, the flashiest, or lowest mileage car that I've had, but this IS the most impressive vehicle I've been lucky enough to own. From the minute engineering details I've noticed while tinkering with the door/window assembly to the service-friendly layout of the rear engine, this car is a mechanical engineer's delight. I'm looking forward to the years of tinering and driving this beauty to come.
 client-link: https://coleeisenberg.github.io/
-img1: SubMemberDown.png
-paragraph1: While commuting to school, I noticed my clutch was having trouble staying disengaged when actuated (the system wasn't holding pressure). Following normal troubleshooting procedures, I started with the easiest solutions. No luck with a fluid bleed. Changing the master cylinder didn’t solve the problem either. The only possible culprit left was the slave cylinder, which required removing the rear subframe/transaxle assembly and sliding the torque tube away from the back of the motor. Once I had it apart, I swapped out the part and decided to replace the clutch and flywheel as well—since I didn’t want to do this job again anytime soon! After spending my entire spring break on my back in the driveway, my transmission never felt so smooth.
+img1_5: SubMemberDown.png
+img1: Corvette.png 
+paragraph1: With my ownership spanning from 2021-2025 and 45,000 miles, this 2001 C5 Corvette was an absolute blast. What I learned, however, is that sometimes there are some tradeoffs to be made when choosing between serviceability and performance. If you want an example, please reference the photo above for what's involved in a clutch swap (spoiler, you remove the entire rear subframe)
 alt1: image-alt1
 img2: Headers.png
 paragraph2: Working on projects like removing the intake manifold to replace the oil pressure sensor, jacking up the motor to install long tube headers, and countless other tasks has continuously honed my mechanical aptitude. Each challenge pushes me to think critically and sharpen my skills with every turn of the wrench.
 alt2: image-alt2
 img3: CamryInTrees.png
 alt3: image-alt3
-paragraph3: The Corvette is an awesome and reliable car, but I wanted an additional car to get slightly better MPG. This led me to purchase a '99 Toyota Camry. Thanks to Toyota's Kaizen manufacturing process and some preventative maintenance, I trusted this car on a road trip from New York to the West Coast and back. No hiccups other than some flat tires in Montana.
+paragraph3: The Corvette was an awesome and reliable car, but I wanted an additional car to get slightly better MPG. This led me to purchase a '99 Toyota Camry (if you haven't noticed, I like old cars). Thanks to Toyota's Kaizen manufacturing process and some preventative maintenance, I trusted this car on a road trip from New York to the West Coast and back. No hiccups other than some flat tires in Montana.
 img4: CamryHeadGasket.png
 alt4: image-alt4
-paragraph4: While I do love old Toyotas, after 200,000 miles, some components are bound to go sour. Back in September 2024, I started to notice the symptoms of head gasket failure. Trusting my mechanical abilities, I decided to tackle the project on my own. The project lasted somewhere between a couple and a few nights, and I took enough re-assembly notes to write a thesis. I emerged with a once again functional Camry and an enhanced understanding of the principles that *drive* internal combustion engines.
+paragraph4: While I do love old Toyotas, after 200,000 miles, some components won't handle the years fatigue resulting from less-than-conservative driving. Back in September 2024, I started to notice the symptoms of head gasket failure. Trusting my mechanical abilities, I decided to tackle the project on my own. The project lasted somewhere between a couple and a few nights, and I took enough re-assembly notes to write a thesis. I emerged with a once again functional Camry and an enhanced understanding of the principles that *drive* internal combustion engines.
 
 ---
